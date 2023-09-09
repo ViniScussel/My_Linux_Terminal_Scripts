@@ -12,8 +12,10 @@ def WhatchWeather(latitude, longitude):
 def send():
 
     name = "NAME" #change here your name
-    latitude = -19.7483
-    longitude = -47.9319
+
+    #You should change that:
+    latitude = 0
+    longitude = 0
 
     dataWeather = WhatchWeather(latitude, longitude)
     celcius = dataWeather["current_weather"]["temperature"]
