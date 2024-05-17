@@ -20,8 +20,8 @@ class APIdata():
 
 
     if __name__ == "__main__":
-        dataWeather = assitirTemp(-19.747368, -47.939156)
+        dataWeather = assitirTemp(latitude, longitude)
         celcius = dataWeather["current_weather"]["temperature"]
         isday = dataWeather["current_weather"]["is_day"]
-        show = enviar(dataWeather, celcius, isday, "Stark")
+        show = enviar(dataWeather, celcius, isday, your_name_here '''your name here as a string''')
         print(show)
